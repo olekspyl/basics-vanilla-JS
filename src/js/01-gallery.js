@@ -16,21 +16,31 @@ galleryEl.insertAdjacentHTML("beforeend", gallery.join(""));
 
 galleryEl.addEventListener("click", onGalleryClick);
 
+let instance;
+
 function onGalleryClick(e) {
   console.dir(e.target);
   if (!e.target.classList.contains("js-item")) {
     return;
   }
 
-  const instance = basicLightbox.create(
-    `<img src="${e.target.dataset.source}" width="800" height="600">`
+  instance = basicLightbox.create(
+    `<img src="${e.target.dataset.source}" width="800" height="600">`,
+    {
+      onShow: (instance) => {
+        window.addEventListener("keydown", onEscPress);
+      },
+      onClose: (instance) => {
+        window.removeEventListener("keydown", onEscPress);
+      },
+    }
   );
   instance.show();
+}
 
-  document.addEventListener("keydown", (e) => {
-    if (e.code === "Escape") {
-      console.log(e.code);
-      instance.close();
-    }
-  });
+document.addEventListener("keydown", onEscPress);
+function onEscPress(e) {
+  if (e.code === "Escape") {
+    instance.close();
+  }
 }
