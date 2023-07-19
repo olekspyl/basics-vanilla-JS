@@ -1,5 +1,5 @@
 {
-  "name": "parcel-project-template",
+  "name": "basics-vanilla-JS",
   "version": "2.0.0",
   "description": "",
   "homepage": "https://olekspyl.github.io/local",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/olekspyl/basics-vanilla-JS.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Oleksandra Pylypchuk <lemocream@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/olekspyl/basics-vanilla-JS/issues"
   },
   "dependencies": {
     "@vimeo/player": "^2.20.1",
