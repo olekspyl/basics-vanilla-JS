@@ -1,21 +1,21 @@
 {
-  "name": "basics-vanilla-JS",
+  "name": "basics-vanilla-js",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://olekspyl.github.io/local",
+  "homepage": "https://olekspyl.github.io/basics-vanillaJS",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /local/"
+    "build": "parcel build src/*.html --public-url /basics-vanillaJS/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olekspyl/basics-vanilla-JS.git"
+    "url": "git+https://github.com/olekspyl/basics-vanillaJS.git"
   },
   "keywords": [],
   "author": "Oleksandra Pylypchuk <lemocream@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/olekspyl/basics-vanilla-JS/issues"
+    "url": "https://github.com/olekspyl/basics-vanillaJS/issues"
   },
   "dependencies": {
     "@vimeo/player": "^2.20.1",
