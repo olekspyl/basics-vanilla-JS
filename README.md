@@ -1,5 +1,4 @@
-# Basic principles of vanilla JS
+# LocalStorage
 
-In main branch is absent any task, it's only 'common room'.
-To find task-solution pair you need to switch branch.
-There 3 additional branches - 'DOM-events', 'propagation'. 'localStorage'.
+There are 3 tasks which represents understanding of local storage in Browser.
+Also used libraries SimpleLightBox and Vimeo.
